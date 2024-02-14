@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+body{
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+    background: #f4f2ec url(../img/fundo.png) repeat-x;
+}
+#container{
+    width: 1080px;
+    margin: 0 auto;
+}
+/*formatação geral dos links*/
+a:link, a:active, a:visited{
+    color: #af670a;
+    text-decoration: none;
+}
+/*formatação css do logo*/
+#logo h1{
+    float: left;
+}
+#logo a{
+    width: 248px;
+    height: 21px;
+    display: block;
+    background: url(../img/logo.png) no-repeat;
+    text-indent: -9000px;
+}
+header{
+    padding: 15px 0;
+    height: 55px;
+}
+/*formatação css do menu de navegação*/
+nav ul{
+    margin: 20px;
+    float: right;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a:link{
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    border-bottom: 1px solid #535858;
+    color: #e6be8a;
+}
+/*formatação CSS do conteudo principal e da aside*/
+#principal{
+    width: 710px;
+    float: left;
+}
+aside{
+    width: 350px;
+    float: right;
+}
